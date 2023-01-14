@@ -30,7 +30,7 @@ h1 {
     padding: 1em;
 }
 
-.hero__section{
+.hero__section {
     background-color: var(--primary);
 }
 
@@ -141,14 +141,9 @@ h1 {
     color: var(--silver);
 }
 
-.offering_img{
-    position: relative;
-}
+
 
 .offering_btn {
-    position: absolute;
-    top: 80%;
-    left: 35%;
     color: white;
     border: none;
     font-size: 1rem;
@@ -164,7 +159,7 @@ h1 {
 
 
 
-.offering_img img{
+.offering_img img {
     width: 100%;
 }
 
@@ -197,7 +192,7 @@ h1 {
     transition: transform 500ms, background-color 1s;
 }
 
-.fact_item h3{
+.fact_item h3 {
     font-size: 2.2rem;
 }
 
@@ -220,7 +215,7 @@ h1 {
     background-color: var(--primary);
 }
 
-.contact_text{
+.contact_text {
     color: var(--silver);
 }
 
@@ -257,67 +252,89 @@ h1 {
 
 
 @media (min-width: 768px) {
-    .nav{
+    .nav {
         display: flex;
         align-items: center;
         justify-content: space-between;
     }
-    .nav-options{
+
+    .nav-options {
         display: flex;
         flex-wrap: wrap;
     }
 
-    .features{
+    .features {
         display: grid;
         grid-template-columns: 1fr 1fr;
         justify-content: center;
         align-items: center;
     }
-    .features_img_group{
+
+    .features_img_group {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 10px;
     }
-    .features_img{
+
+    .features_img {
         margin: 0;
     }
-    .features_img img{
+
+    .features_img img {
         width: 100%;
     }
-    .feature_info{
+
+    .feature_info {
         text-align: start;
     }
 
-    .offering{
+    .offering {
         display: grid;
         grid-template-columns: 1.2fr 1fr;
         align-items: center;
     }
-    .fact_header{
+
+    .offering_img {
+        position: relative;
+    }
+
+    .offering_btn {
+        position: absolute;
+        top: 80%;
+        left: 35%;
+    }
+
+    .fact_header {
         text-align: left;
     }
-    .fact_text{
+
+    .fact_text {
         width: 45ch;
     }
-    .fact_container{
+
+    .fact_container {
         flex-direction: row;
         justify-content: space-evenly;
     }
-    .sponsor_img_group{
+
+    .sponsor_img_group {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
     }
-    .contact{
+
+    .contact {
         display: grid;
         gap: 1em;
         grid-template-columns: 1fr 2fr;
         justify-content: space-between;
     }
-    .contact_info{
+
+    .contact_info {
         margin: 1em;
     }
-    .contact_title{
+
+    .contact_title {
         width: 18ch;
     }
 }
