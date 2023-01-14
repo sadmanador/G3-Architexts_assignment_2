@@ -222,6 +222,12 @@ h1 {
 
 .sponsor_img img{
     filter: grayscale(99%);
+    transition: filter .8s, transform .5s;
+}
+
+.sponsor_img img:hover{
+    filter: grayscale(0%);
+    transform: scale(1.1, 1.1);
 }
 
 .sponsor_text{
