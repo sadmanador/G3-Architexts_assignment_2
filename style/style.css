@@ -1,6 +1,7 @@
 :root{
     --primary: #FFF4E7;
     --btn_color: #FF900E;
+    --silver: #727272;
 }
 
 
@@ -86,14 +87,111 @@ h1 {
     border-radius: .5em;
 }
 
+.banner_text{
+    color: var(--silver);
+}
+
 .banner_btn{
     margin-bottom: 1em;
 }
 
+.features{
+    text-align: center;
+}
 
+.features_img{
+    margin: 1.5em;
+}
 
+.features_img img{
+    width: 100%;
+}
 
+.feature_info{
+    margin: 0 2em;
 
+}
+
+.features_title{
+    text-align: start;
+    width: 20ch;
+}
+
+.feature_text{
+    color: var(--silver);
+}
+
+.offering{
+    text-align: center;
+    margin: 1em;
+}
+
+.offering_title{
+    text-align: start;
+    border-left: 5px solid var(--btn_color);
+    width: 20ch;
+    padding-left: 1em;
+}
+
+.offering_text{
+    color: var(--silver);
+}
+
+.offering_item{
+    padding: 1em;
+    margin: 1em;
+    /* border: 1px solid gray; */
+    border-radius: .5em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.offering_item p{
+    color: var(--silver);
+}
+
+.offering_btn{
+    color: white;
+    border: none;
+    font-size: 1.6rem;
+    padding: 1em 2.6em;
+    margin-top: 1em;
+    border-radius: 1em;
+}
+
+.offering_btn h2, .offering_btn p{
+    margin: 0;
+}
+
+.facts{
+    text-align: center;
+    padding: 1.5em;
+}
+
+.fact_text{
+    color: var(--silver);
+}
+
+.fact_container{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
+}
+
+.fact_item{
+    border-radius: 1em;
+    max-width: 300px;
+    font-size: 1.8rem;
+    padding: 1em;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 4px 8px 0 rgba(255, 144, 14, 0.5), 0 6px 20px 0 rgba(255, 144, 14, 0.3);
+}
+
+.fact_item-name{
+    color: var(--silver);
+}
 
 
 
