@@ -33,3 +33,71 @@ h1 {
 .col{
     width: 100%;
 } */
+
+.nav{
+    background-color: var(--primary);
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.nav-options{
+    list-style-type: none;
+}
+
+.nav p{
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.nav_list{
+    margin: .5em 1em;
+}
+
+.nav_list a{
+    text-decoration: none;
+    color: black;
+}
+
+.banner{
+    background-color: var(--primary);
+    text-align: center;
+    padding: 1em 1em;
+}
+
+.banner_title{
+    margin: 0;
+}
+
+.banner_img{
+    max-width: 1400px;
+    width: 100%;
+}
+
+.btn-color{
+    background-color: var(--btn_color);
+}
+
+.btn{
+    font-size: 1.4rem;
+    padding: 1.4em 1.4em;
+    border: none;
+    color: white;
+    border-radius: .5em;
+}
+
+.banner_btn{
+    margin-bottom: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px){}
