@@ -112,7 +112,6 @@ h1 {
 
 .features_title {
     text-align: start;
-    width: 15ch;
 }
 
 .feature_text {
@@ -123,7 +122,6 @@ h1 {
 .offering_title {
     text-align: start;
     border-left: 5px solid var(--btn_color);
-    width: 20ch;
     padding-left: 1em;
 }
 
