@@ -21,9 +21,6 @@ h1 {
     font-size: 3rem;
 }
 
-h2 {
-    font-size: 2.7rem;
-}
 
 .container {
     width: 80%;
@@ -115,7 +112,7 @@ h2 {
 
 .features_title {
     text-align: start;
-    width: 20ch;
+    width: 15ch;
 }
 
 .feature_text {
@@ -137,19 +134,26 @@ h2 {
 .offering_item {
     padding: 1em;
     margin: 1em;
-    /* border: 1px solid gray; */
     border-radius: .5em;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 
 .offering_item p {
     color: var(--silver);
 }
 
+.offering_img{
+    position: relative;
+}
+
 .offering_btn {
+    position: absolute;
+    top: 80%;
+    left: 35%;
     color: white;
     border: none;
-    font-size: 1.6rem;
+    font-size: 1rem;
     padding: 1em 2.6em;
     margin-top: 1em;
     border-radius: 1em;
@@ -159,6 +163,8 @@ h2 {
 .offering_btn:hover {
     transform: translateY(-20px) scale(1.1, 1.1);
 }
+
+
 
 .offering_img img{
     width: 100%;
@@ -260,6 +266,7 @@ h2 {
     }
     .nav-options{
         display: flex;
+        flex-wrap: wrap;
     }
 
     .features{
@@ -285,7 +292,7 @@ h2 {
 
     .offering{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1.2fr 1fr;
         align-items: center;
     }
     .fact_header{
@@ -300,6 +307,7 @@ h2 {
     }
     .sponsor_img_group{
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-evenly;
     }
     .contact{
