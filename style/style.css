@@ -62,6 +62,10 @@ h1 {
     color: black;
 }
 
+.fa-bars{
+    font-size: 2rem;
+}
+
 
 
 /* banner section */
@@ -158,11 +162,15 @@ h1 {
     padding: 1em 2.6em;
     margin-top: 1em;
     border-radius: 1em;
-    transition: transform 500ms;
+    transition: transform .5s, background-color .5s;
 }
 
 .offering_btn:hover {
-    transform: translateY(-20px) scale(1.1, 1.1);
+    transform: translateY(-40px) scale(1.4, 1.4);
+}
+
+.offering_btn:focus{
+    background-color: rgba(255, 69, 0, .8);
 }
 
 .offering_img img {
