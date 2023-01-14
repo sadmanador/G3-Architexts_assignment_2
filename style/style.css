@@ -1,3 +1,4 @@
+/* variables */
 :root {
     --primary: #FFF4E7;
     --btn_color: #FF900E;
@@ -5,6 +6,7 @@
 }
 
 
+/* boilerplate code for reset */
 *,
 *::after,
 *::before {
@@ -21,7 +23,7 @@ h1 {
     font-size: 3rem;
 }
 
-
+/* common stylings */
 .container {
     width: 80%;
     margin: 3em auto;
@@ -34,6 +36,8 @@ h1 {
     background-color: var(--primary);
 }
 
+
+/* navbar styling */
 .nav {
     background-color: var(--primary);
     margin: 0 auto;
@@ -58,6 +62,9 @@ h1 {
     color: black;
 }
 
+
+
+/* banner section */
 .banner {
     background-color: var(--primary);
     margin-top: 0;
@@ -97,6 +104,8 @@ h1 {
     margin-bottom: 1em;
 }
 
+
+/* feature section styling */
 .features_img {
     margin: 1.5em;
 }
@@ -119,6 +128,8 @@ h1 {
 }
 
 
+
+/* offering section styling */
 .offering_title {
     text-align: start;
     border-left: 5px solid var(--btn_color);
@@ -136,12 +147,9 @@ h1 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-
 .offering_item p {
     color: var(--silver);
 }
-
-
 
 .offering_btn {
     color: white;
@@ -157,8 +165,6 @@ h1 {
     transform: translateY(-20px) scale(1.1, 1.1);
 }
 
-
-
 .offering_img img {
     width: 100%;
 }
@@ -169,6 +175,8 @@ h1 {
 }
 
 
+
+/* fact styling */
 .fact_text {
     color: var(--silver);
 }
@@ -206,6 +214,8 @@ h1 {
 }
 
 
+
+/* sponsor styling */
 .sponsor_img {
     margin: 2em;
 }
@@ -218,6 +228,8 @@ h1 {
     color: var(--silver);
 }
 
+
+/* contact styling */
 .contact_text {
     color: var(--silver);
 }
@@ -253,12 +265,16 @@ input::placeholder, textarea::placeholder{
     margin: 1.5em 0;
 }
 
+
+/* footer styling */
 .footer {
     margin: 0 auto;
     color: var(--silver);
 }
 
 
+
+/* media query for >768px */
 @media (min-width: 768px) {
     .nav {
         display: flex;
