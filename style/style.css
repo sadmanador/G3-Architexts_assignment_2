@@ -1,0 +1,35 @@
+:root{
+    --primary: #FFF4E7;
+    --btn_color: #FF900E;
+}
+
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 1.3rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+/* .container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+.row{
+    display: flex;
+    gap: 50px;
+}
+
+.col{
+    width: 100%;
+} */
